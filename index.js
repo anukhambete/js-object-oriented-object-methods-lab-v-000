@@ -14,4 +14,7 @@ function BoardMember(name, homestate, training) {
   this.releasePressStatement = function() {
     return "You will see great things from Scuber."
   }
+  this.sayHi = function() {
+    return "Hi, my name is ${this.name}"
+  }
 }
